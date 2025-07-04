@@ -1,6 +1,7 @@
 import './App.css';
 import Main from './travelJournal/Main';
 import Header from './travelJournal/Header';
+import Footer from './travelJournal/Footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         date="Dates: 01 Oct, 2021 - 18 Nov, 2021"
         info="Geirangerfjord is a breathtaking fjord located in Norway, known for its steep cliffs, lush greenery, and spectacular waterfalls. It is a popular destination for nature lovers and is recognized as a UNESCO World Heritage site."
       />
+      <Footer/>
     </div>
   );
 }
