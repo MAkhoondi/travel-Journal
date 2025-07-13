@@ -1,7 +1,7 @@
 import './App.css';
 import Main from './travelJournal/Main';
 import Header from './travelJournal/Header';
-import travelData from './travelJournal/travelData'
+import travelData from './travelJournal/travelData';
 import Footer from './travelJournal/Footer';
 
 function App() {
