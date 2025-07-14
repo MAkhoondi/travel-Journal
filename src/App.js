@@ -6,7 +6,10 @@ import Footer from './travelJournal/Footer';
 
 function App() {
   const travelElements = travelData.map((travel) => {
-    return  <Main img={travel.img} countryName={travel.countryName} link={travel.link} placeName={travel.placeName} date={travel.date} info={travel.info}/>
+    return  <Main 
+              key={travel.id}
+              {...travel}                          
+      />
     })
   return (
     <div className="App">
